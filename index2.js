@@ -10,7 +10,7 @@ const sevicesName = json.map((item, index) => {
 	return `{name:${item.NAME}}`});
 const configuration = new Configuration({
     organization: "org-TmOr0IZbE4DrGNbqpnUiDCaP",
-    apiKey: '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',
+    apiKey: '',
 });
 const openai = new OpenAIApi(configuration);
 const userData = `
